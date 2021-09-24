@@ -49,6 +49,9 @@ def login_page():
     """)
 
 
+
+
+
 def secret_page(username=None, password=None):
     """
     Returns the HTML for the page visited after the user has logged-in.
@@ -132,3 +135,6 @@ def _wrapper(page):
     </body>
     </html>
     """)
+
+
+print(login_page())
